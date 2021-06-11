@@ -1,0 +1,82 @@
+body{
+	background-color: ;
+    font-family: 'Alice', serif;
+    font-weight: lighter;
+    margin: 0;
+	}
+
+
+
+
+#banner {
+	background-image: url(images/aktiv1.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px auto;
+    padding: 330px 0;}
+
+ @media (max-width: 540px){
+ 	#banner{
+ 		width:250px height:250px !important; 
+ 	}
+ }
+
+h1{
+	text-align: center;
+	font-weight: 50px;	
+	letter-spacing: 5px;
+	font-size: 50px;
+	margin: 4px;
+    padding: 0px;
+    color: black;}
+
+h2{
+	text-align: center;
+}
+
+a{	
+	text-decoration: none;
+	text-align: center;
+	color: black;}
+
+
+ul{
+	text-align: left;
+	
+}
+
+.imagenes-padding{	
+	padding: 50px;
+	margin: 0px;
+	box-shadow:3px 3px 2px dimgrey;
+	}
+.id{	
+	text-align: center;}
+
+.container{	
+	margin: auto}
+
+#btn-cta{
+
+	padding: 50px 0;
+	box-shadow: black;
+	background-color: lightgrey;
+	background-size: 10px;}
+
+#h1{    
+	background: white;
+    margin: 50px;
+    padding: 0px;	
+	}
+
+#footer{
+	padding: 71px;
+    background-color: darkgrey;
+    margin: 32px;
+    font-size: 40px;
+}
+.list-inline i {	
+	font-size: 50px;
+	color:white ;}
+.list-inline i:hover{	
+	color: black;}
